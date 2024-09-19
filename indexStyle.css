@@ -1,0 +1,104 @@
+body {
+  margin-top: 40px;
+  /* font-family: sans-serif; */
+  font-family: "Nunito", sans-serif;
+  /* background-color: #9ad0c2; */
+  /* background-image: linear-gradient(#9bbec8, #427d9d, #164863); */
+  background-image: linear-gradient(-45deg, #50b8e7, #b9e2f5);
+  background-image: url(bg.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+h1,
+h2 {
+  text-align: center;
+  margin: 40px 0px;
+  font-size: xx-large;
+  font-weight: bolder;
+  /* color: aqua; */
+}
+h1 {
+  text-align: center;
+  margin: 40px 0px;
+  font-size: 50px;
+  font-weight: bolder;
+  /* color: aqua; */
+}
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+main {
+  padding: 20px;
+}
+
+form {
+  width: 500px;
+  margin: 0 auto;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+#button {
+  width: 282px;
+}
+
+/* select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+} */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: rgb(194, 194, 206);
+  opacity: 0.85;
+  color: black;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+
+  padding: 10px;
+  text-align: center;
+  /* background: rgb(194, 194, 206);
+  opacity: 0.9;
+  color: black; */
+}
+
+.radio {
+  justify-content: space-between;
+}
+#metric:hover {
+  cursor: pointer;
+}
+#imperial:hover {
+  cursor: pointer;
+}
+footer {
+  text-align: center;
+}
+#name {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+@media (max-width: 768px) {
+  form {
+    width: 100%;
+  }
+}
+@media (max-width: 425px) {
+  header {
+    margin-left: 80px;
+    width: 500px;
+  }
+}
